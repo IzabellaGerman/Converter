@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="MVVM\View\Images\arrow_down_dark.png" />
     <None Remove="MVVM\View\Images\Down.png" />
     <None Remove="MVVM\View\Images\Down_active.png" />
     <None Remove="MVVM\View\Images\minimaze.png" />
@@ -20,6 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="MVVM\View\Images\arrow_down_dark.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="MVVM\View\Images\Down.png" />
     <Resource Include="MVVM\View\Images\Down_active.png" />
     <Resource Include="MVVM\View\Images\minimaze.png">

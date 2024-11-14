@@ -22,3 +22,4 @@ C:\!files\_C#\GitHub\7_Converter\Converter\Converter\obj\Debug\net8.0-windows\Th
 C:\!files\_C#\GitHub\7_Converter\Converter\Converter\obj\Debug\net8.0-windows\Theme\ListViewTheme.baml
 C:\!files\_C#\GitHub\7_Converter\Converter\Converter\obj\Debug\net8.0-windows\MVVM\View\MainWindow.g.cs
 C:\!files\_C#\GitHub\7_Converter\Converter\Converter\obj\Debug\net8.0-windows\MVVM\View\MainWindow.baml
+C:\!files\_C#\GitHub\7_Converter\Converter\Converter\obj\Debug\net8.0-windows\Converter.sourcelink.json
