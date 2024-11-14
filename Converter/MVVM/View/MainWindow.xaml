@@ -1,0 +1,191 @@
+﻿<Window x:Class="Converter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Converter"
+        mc:Ignorable="d"
+        Title="MainWindow" 
+        Height="450" 
+        Width="250"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Background="Transparent"
+        AllowsTransparency="True">
+
+    <Window.Resources>
+        <Style x:Key="ComboBoxButton" TargetType="Button">
+            <Setter Property="OverridesDefaultStyle"
+                    Value="True"/>
+            <Setter Property="Background" Value="#FF272537"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="Border" BorderThickness="0" BorderBrush="DarkGray" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            
+                            <EventTrigger RoutedEvent="PreviewMouseDown">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ThicknessAnimation Storyboard.TargetProperty="Margin" Duration="0:0:0.100" To="1,1,0,0"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+
+                            <EventTrigger RoutedEvent="PreviewMouseUp">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ThicknessAnimation Storyboard.TargetProperty="Margin" Duration="0:0:0.100" To="0"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                            
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    
+    
+    <Border 
+        Background="#272537"
+        CornerRadius="20">
+        
+        <Grid>
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="27"></RowDefinition>
+                <RowDefinition></RowDefinition>                
+            </Grid.RowDefinitions>
+
+            <Grid  Name="ToolBar" 
+                Grid.Row="0"                 
+                Background="Transparent"
+                MouseDown="ToolBar_MouseDown">
+                
+                <StackPanel 
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Top"
+                    Margin="7">
+
+                    <Image Name="Minimaze" 
+                           Height="15"
+                           Width="15" 
+                           Margin="0,1,5,3"
+                           MouseDown="Minimaze_MouseDown">
+                        <Image.Style>
+                            <Style TargetType="{x:Type Image}">
+                                <Setter Property="Source" Value="Images/minimaze.png"/>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding IsMouseOver, ElementName=Minimaze}" Value="true">
+                                        <Setter Property="Source" Value="Images/minimaze_active.png"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Image.Style>
+                    </Image>
+
+                    <Image Name="CloseWindow" 
+                            Height="13"
+                            Width="13" 
+                            MouseDown="CloseWindow_MouseDown"
+                           Margin="1,1,3,1"
+                           >
+                        <Image.Style>
+                            <Style TargetType="{x:Type Image}">
+                                <Setter Property="Source" Value="Images/x.png"/>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding IsMouseOver, ElementName=CloseWindow}" Value="true">
+                                        <Setter Property="Source" Value="Images/x_active.png"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Image.Style>
+                    </Image>
+                </StackPanel>  
+                
+            </Grid>
+            
+            <TextBox Name="CurrentFirst"                 
+                    Grid.Row="1"                   
+                    Text="0"
+                    TextChanged="CurrentFirst_TextChanged"
+                    Style="{StaticResource ModernTextBox}"/>
+           
+                <Border 
+                  Grid.Row="1"
+                  Height="25"
+                  Width="50"
+                  HorizontalAlignment="Left"
+                  VerticalAlignment="Center"
+                  Margin="40,0,0,0"
+                  CornerRadius="2"
+                  >
+                    
+                    <Button x:Name="FirstCurrentListButton"
+                        Style="{StaticResource ComboBoxButton}">
+                    
+                    </Button>
+                    
+                </Border>            
+
+
+            <Border Name="Arrow"
+                    Grid.Row="2"
+                    CornerRadius="12"
+                    Background="#353340"
+                    Width="27"
+                    Height="26">
+                <Grid>
+                    <Rectangle StrokeThickness="1"
+                               VerticalAlignment="Center"
+                               Margin="0,0,0,7"/>
+                    <Image Name="Direct"
+                           Height="19"
+                           Width="20">
+                        <Image.Style>
+                            <Style TargetType="{x:Type Image}">
+                                <Setter Property="Source" Value="Images/Down.png"/>
+                            </Style>
+                        </Image.Style>
+                        
+                    </Image>
+                </Grid>
+            </Border>
+
+            <TextBox Name="CurrentSecond"               
+                Grid.Row="3"
+                Text="0"
+                VerticalAlignment="Top"
+                Margin="5"
+                Style="{StaticResource ModernTextBox}"/>
+
+            <Border 
+                  Grid.Row="3"
+                  Height="25"
+                  Width="50"
+                  HorizontalAlignment="Left"
+                  VerticalAlignment="Top"
+                  Margin="40,13,0,0"
+                  CornerRadius="2"
+                  >
+                
+                    <Button x:Name="SecondCurrentListButton" 
+                        Style="{StaticResource ComboBoxButton}">
+
+                    </Button>
+
+            </Border>
+
+        </Grid>
+        
+    </Border>
+    
+</Window>

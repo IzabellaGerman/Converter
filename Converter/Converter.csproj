@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="MVVM\View\Images\Down.png" />
+    <None Remove="MVVM\View\Images\Down_active.png" />
+    <None Remove="MVVM\View\Images\minimaze.png" />
+    <None Remove="MVVM\View\Images\minimaze_active.png" />
+    <None Remove="MVVM\View\Images\Up.png" />
+    <None Remove="MVVM\View\Images\Up_active.png" />
+    <None Remove="MVVM\View\Images\x.png" />
+    <None Remove="MVVM\View\Images\x_active.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="MVVM\View\Images\Down.png" />
+    <Resource Include="MVVM\View\Images\Down_active.png" />
+    <Resource Include="MVVM\View\Images\minimaze.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="MVVM\View\Images\minimaze_active.png" />
+    <Resource Include="MVVM\View\Images\Up.png" />
+    <Resource Include="MVVM\View\Images\Up_active.png" />
+    <Resource Include="MVVM\View\Images\x.png" />
+    <Resource Include="MVVM\View\Images\x_active.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MVVM\Model\" />
+    <Folder Include="MVVM\ViewModel\" />
+  </ItemGroup>
+
+</Project>
