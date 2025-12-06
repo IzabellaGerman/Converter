@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|c:\\!files\\_c#\\github\\7_converter\\converter\\converter\\mvvm\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|solutionrelative:converter\\mvvm\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|c:\\!files\\_c#\\github\\7_converter\\converter\\converter\\mvvm\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|solutionrelative:converter\\mvvm\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -30,7 +34,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter\\Converter\\App.xaml",
               "RelativeDocumentMoniker": "Converter\\App.xaml",
@@ -48,6 +52,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter\\Converter\\MVVM\\View\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Converter\\MVVM\\View\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter\\Converter\\MVVM\\View\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Converter\\MVVM\\View\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAIAzwCMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T10:04:06.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter\\Converter\\MVVM\\View\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Converter\\MVVM\\View\\MainWindow.xaml",
@@ -59,19 +76,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ButtonTheme.xaml",
               "DocumentMoniker": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter\\Converter\\Theme\\ButtonTheme.xaml",
               "RelativeDocumentMoniker": "Converter\\Theme\\ButtonTheme.xaml",
               "ToolTip": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter\\Converter\\Theme\\ButtonTheme.xaml",
               "RelativeToolTip": "Converter\\Theme\\ButtonTheme.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-30T08:33:31.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T08:33:31.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TextBoxTheme.xaml",
               "DocumentMoniker": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter\\Converter\\Theme\\TextBoxTheme.xaml",
               "RelativeDocumentMoniker": "Converter\\Theme\\TextBoxTheme.xaml",
