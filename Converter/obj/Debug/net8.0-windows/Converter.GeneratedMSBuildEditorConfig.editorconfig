@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Converter
-build_property.ProjectDir = C:\!files\_C#\GitHub\7_Converter\Converter\Converter\
+build_property.ProjectDir = C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

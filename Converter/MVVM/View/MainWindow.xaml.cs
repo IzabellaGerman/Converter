@@ -41,6 +41,9 @@ namespace Converter
 
         private void CurrentFirst_TextChanged(object sender, TextChangedEventArgs e)
             {
+            
+
+
 
             }
         }

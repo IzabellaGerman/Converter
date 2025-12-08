@@ -23,3 +23,27 @@ C:\!files\_C#\GitHub\7_Converter\Converter\Converter\obj\Debug\net8.0-windows\Th
 C:\!files\_C#\GitHub\7_Converter\Converter\Converter\obj\Debug\net8.0-windows\MVVM\View\MainWindow.g.cs
 C:\!files\_C#\GitHub\7_Converter\Converter\Converter\obj\Debug\net8.0-windows\MVVM\View\MainWindow.baml
 C:\!files\_C#\GitHub\7_Converter\Converter\Converter\obj\Debug\net8.0-windows\Converter.sourcelink.json
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\bin\Debug\net8.0-windows\Converter.exe
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\bin\Debug\net8.0-windows\Converter.deps.json
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\bin\Debug\net8.0-windows\Converter.runtimeconfig.json
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\bin\Debug\net8.0-windows\Converter.dll
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\bin\Debug\net8.0-windows\Converter.pdb
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\obj\Debug\net8.0-windows\Theme\ButtonTheme.baml
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\obj\Debug\net8.0-windows\Theme\ListViewTheme.baml
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\obj\Debug\net8.0-windows\Theme\TextBoxTheme.baml
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\obj\Debug\net8.0-windows\MVVM\View\MainWindow.g.cs
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\obj\Debug\net8.0-windows\App.g.cs
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\obj\Debug\net8.0-windows\Converter_MarkupCompile.cache
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\obj\Debug\net8.0-windows\Converter_MarkupCompile.lref
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\obj\Debug\net8.0-windows\App.baml
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\obj\Debug\net8.0-windows\MVVM\View\MainWindow.baml
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\obj\Debug\net8.0-windows\Converter.g.resources
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\obj\Debug\net8.0-windows\Converter.GeneratedMSBuildEditorConfig.editorconfig
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\obj\Debug\net8.0-windows\Converter.AssemblyInfoInputs.cache
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\obj\Debug\net8.0-windows\Converter.AssemblyInfo.cs
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\obj\Debug\net8.0-windows\Converter.csproj.CoreCompileInputs.cache
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\obj\Debug\net8.0-windows\Converter.dll
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\obj\Debug\net8.0-windows\refint\Converter.dll
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\obj\Debug\net8.0-windows\Converter.pdb
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\obj\Debug\net8.0-windows\Converter.genruntimeconfig.cache
+C:\!files\_C#\GitHub\7_Converter\Converter 2\Converter\obj\Debug\net8.0-windows\ref\Converter.dll

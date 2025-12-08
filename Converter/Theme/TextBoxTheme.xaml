@@ -25,8 +25,7 @@
                                     Foreground="#CFCFCF"
                                     x:Name="CurrentBox"/>
                             
-                            <TextBlock 
-                                        
+                            <TextBlock                                         
                                         IsHitTestVisible="False"                                        
                                         VerticalAlignment="Top"
                                         HorizontalAlignment="Center"
