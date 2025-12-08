@@ -41,8 +41,10 @@ namespace Converter
 
         private void CurrentFirst_TextChanged(object sender, TextChangedEventArgs e)
             {
-            
-
+          /*  if (CurrencyFirst.Text == 0 | CurrencyFirst.Text != string.Empty)
+                {
+                    Currency.Text
+                } */
 
 
             }

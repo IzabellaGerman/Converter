@@ -1,30 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter 2\\",
+  "WorkspaceRootPath": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|c:\\!files\\_c#\\github\\7_converter\\converter 2\\converter\\converter.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|solutionrelative:converter\\converter.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|c:\\!files\\_c#\\github\\7_converter\\converter 2\\converter\\mvvm\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|solutionrelative:converter\\mvvm\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|c:\\!files\\_c#\\github\\7_converter\\converter 2\\converter\\mvvm\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|c:\\!files\\_c#\\github\\7_converter\\converter\\converter\\mvvm\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|solutionrelative:converter\\mvvm\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|c:\\!files\\_c#\\github\\7_converter\\converter 2\\converter\\theme\\buttontheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|c:\\!files\\_c#\\github\\7_converter\\converter\\converter\\mvvm\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|solutionrelative:converter\\mvvm\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|c:\\!files\\_c#\\github\\7_converter\\converter\\converter\\theme\\textboxtheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|solutionrelative:converter\\theme\\textboxtheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|c:\\!files\\_c#\\github\\7_converter\\converter\\converter\\theme\\buttontheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|solutionrelative:converter\\theme\\buttontheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|c:\\!files\\_c#\\github\\7_converter\\converter 2\\converter\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|c:\\!files\\_c#\\github\\7_converter\\converter\\converter\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|solutionrelative:converter\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|c:\\!files\\_c#\\github\\7_converter\\converter 2\\converter\\theme\\textboxtheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AE1461AD-5BF8-4547-9AC6-F141A042A43B}|Converter\\Converter.csproj|solutionrelative:converter\\theme\\textboxtheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,23 +38,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Converter",
-              "DocumentMoniker": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter 2\\Converter\\Converter.csproj",
-              "RelativeDocumentMoniker": "Converter\\Converter.csproj",
-              "ToolTip": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter 2\\Converter\\Converter.csproj",
-              "RelativeToolTip": "Converter\\Converter.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-08T09:38:39.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "TextBoxTheme.xaml",
-              "DocumentMoniker": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter 2\\Converter\\Theme\\TextBoxTheme.xaml",
+              "DocumentMoniker": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter\\Converter\\Theme\\TextBoxTheme.xaml",
               "RelativeDocumentMoniker": "Converter\\Theme\\TextBoxTheme.xaml",
-              "ToolTip": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter 2\\Converter\\Theme\\TextBoxTheme.xaml",
+              "ToolTip": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter\\Converter\\Theme\\TextBoxTheme.xaml",
               "RelativeToolTip": "Converter\\Theme\\TextBoxTheme.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-08T09:09:33.59Z",
@@ -68,32 +52,33 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ButtonTheme.xaml",
-              "DocumentMoniker": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter 2\\Converter\\Theme\\ButtonTheme.xaml",
+              "DocumentMoniker": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter\\Converter\\Theme\\ButtonTheme.xaml",
               "RelativeDocumentMoniker": "Converter\\Theme\\ButtonTheme.xaml",
-              "ToolTip": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter 2\\Converter\\Theme\\ButtonTheme.xaml",
+              "ToolTip": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter\\Converter\\Theme\\ButtonTheme.xaml",
               "RelativeToolTip": "Converter\\Theme\\ButtonTheme.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-08T08:47:35.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter 2\\Converter\\MVVM\\View\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter\\Converter\\MVVM\\View\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Converter\\MVVM\\View\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter 2\\Converter\\MVVM\\View\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter\\Converter\\MVVM\\View\\MainWindow.xaml.cs",
               "RelativeToolTip": "Converter\\MVVM\\View\\MainWindow.xaml.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAnwC4AAAAAAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAIA0wC4AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T10:08:07.259Z"
+              "WhenOpened": "2025-12-06T10:08:07.259Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter 2\\Converter\\MVVM\\View\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter\\Converter\\MVVM\\View\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Converter\\MVVM\\View\\MainWindow.xaml",
-              "ToolTip": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter 2\\Converter\\MVVM\\View\\MainWindow.xaml",
+              "ToolTip": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter\\Converter\\MVVM\\View\\MainWindow.xaml",
               "RelativeToolTip": "Converter\\MVVM\\View\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-05T09:16:50.621Z",
@@ -103,9 +88,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter 2\\Converter\\App.xaml",
+              "DocumentMoniker": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter\\Converter\\App.xaml",
               "RelativeDocumentMoniker": "Converter\\App.xaml",
-              "ToolTip": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter 2\\Converter\\App.xaml",
+              "ToolTip": "C:\\!files\\_C#\\GitHub\\7_Converter\\Converter\\Converter\\App.xaml",
               "RelativeToolTip": "Converter\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-05T09:16:23.462Z",
