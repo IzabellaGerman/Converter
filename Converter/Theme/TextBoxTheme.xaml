@@ -16,8 +16,8 @@
                             <Rectangle StrokeThickness="1"/>
                                 <TextBox                                 
                                     HorizontalContentAlignment="Right"
-                                    Margin="1"
-                                    Text="{TemplateBinding Text}"
+                                    Margin="1"  
+                                    Text="0"
                                     BorderThickness="0"
                                     Background="Transparent"
                                     VerticalContentAlignment="Center"                             
@@ -25,25 +25,7 @@
                                     Foreground="#CFCFCF"
                                     x:Name="CurrentBox"/>
                             
-                            <TextBlock                                         
-                                        IsHitTestVisible="False"                                        
-                                        VerticalAlignment="Top"
-                                        HorizontalAlignment="Center"
-                                        Margin="5,5,5,5"
-                                        FontSize="11"
-                                        Foreground="DarkGray">
-
-                                <TextBlock.Style>
-                                    <Style TargetType="{x:Type TextBlock}">
-                                        <Style.Triggers>
-                                            <DataTrigger Binding="{Binding Text, ElementName=CurrentBox}" 
-                                                                 Value="">
-                                                <Setter Property="Visibility" Value="Hidden"/>
-                                            </DataTrigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </TextBlock.Style>
-                            </TextBlock>
+                           
                         </Grid>
                         
                     </Border>
