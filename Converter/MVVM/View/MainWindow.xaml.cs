@@ -48,5 +48,10 @@ namespace Converter
 
 
             }
+
+        private void FirstCurrencyListButton_MouseDown(object sender, MouseButtonEventArgs e)
+            {
+            
+            }
         }
     }
