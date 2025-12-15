@@ -154,7 +154,8 @@
                 </Border>
 
                 <Grid Name="LeftGrid"
-                      Grid.Row="1">
+                      Grid.Row="1"
+                      Visibility="Hidden">
                 <Polygon Fill="#353340" StrokeThickness="2" 
                          Points="0,8,
                          0,100,
@@ -178,7 +179,7 @@
                          Stroke="#FF40454E"/>
 
                 <StackPanel Orientation="Vertical"
-                            Margin="37,66,115,173">
+                            Margin="37,67,115,173">
                     <Button Style="{StaticResource ComboBoxButton}">
                         <TextBlock Text="EUR" 
                                    Foreground="#CFCFCF"

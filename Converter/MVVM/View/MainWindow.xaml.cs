@@ -51,7 +51,9 @@ namespace Converter
 
         private void FirstCurrencyListButton_MouseDown(object sender, MouseButtonEventArgs e)
             {
-            
+            if(LeftGrid.Visibility == Visibility.Hidden) 
+                 LeftGrid.Visibility = Visibility.Visible; 
+            else LeftGrid.Visibility = Visibility.Hidden; 
             }
         }
     }
