@@ -49,11 +49,13 @@ namespace Converter
 
             }
 
-        private void FirstCurrencyListButton_MouseDown(object sender, MouseButtonEventArgs e)
+       
+
+        private void ArrowDownFirstCurrency_MouseDown(object sender, MouseButtonEventArgs e)
             {
-            if(LeftGrid.Visibility == Visibility.Hidden) 
-                 LeftGrid.Visibility = Visibility.Visible; 
-            else LeftGrid.Visibility = Visibility.Hidden; 
+            if (LeftGrid.Visibility == Visibility.Hidden)
+                LeftGrid.Visibility = Visibility.Visible;
+            else LeftGrid.Visibility = Visibility.Hidden;
             }
         }
     }

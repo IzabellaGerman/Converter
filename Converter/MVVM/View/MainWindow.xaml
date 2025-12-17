@@ -144,12 +144,13 @@
                       CornerRadius="2" >
 
                     <Button x:Name="FirstCurrencyListButton"
-                            Style="{StaticResource ComboBoxButton}" 
-                            MouseDown="FirstCurrencyListButton_MouseDown">
+                            Style="{StaticResource ComboBoxButton}">
+                        
                         <Image x:Name="ArrowDownFirstCurrency"
-                               Width="11"
-                               Margin="35,0,5,0"
-                               Style="{StaticResource ArrowDownImage}"/>
+                               Width="20"
+                               Margin="35,0,0,0"
+                               Style="{StaticResource ArrowDownImage}"
+                               MouseDown="ArrowDownFirstCurrency_MouseDown"/>
                     </Button>                   
                 </Border>
 
