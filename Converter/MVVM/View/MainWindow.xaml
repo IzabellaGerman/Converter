@@ -159,28 +159,28 @@
                       Visibility="Hidden">
                 <Polygon Fill="#353340" StrokeThickness="2" 
                          Points="0,8,
-                         0,100,
-                         100,100,
-                         100,8,
+                         0,70,
+                         70,70,
+                         70,8,
                          50,8,
                          42,0,
                          34,8"
-                         Margin="36,58,114,143"/>
+                         Margin="36,58,144,184"/>
                 
                 <Polygon  
                          StrokeThickness="1"
                          Points="0,8,
-                         0,100,
-                         100,100,
-                         100,8,
+                         0,70,
+                         70,70,
+                         70,8,
                          50,8,
                          42,0,
                          34,8"
-                         Margin="36,58,114,143"
+                         Margin="36,58,144,184"
                          Stroke="#FF40454E"/>
 
                 <StackPanel Orientation="Vertical"
-                            Margin="37,67,115,173">
+                            Margin="37,67,145,185">
                     <Button Style="{StaticResource ComboBoxButton}">
                         <TextBlock Text="EUR" 
                                    Foreground="#CFCFCF"
@@ -211,7 +211,7 @@
                         Background="#353340"
                         VerticalAlignment="Top"
                         HorizontalAlignment="Center"
-                        Margin="52,200,52,52"
+                        Margin="52,70,52,52"
                         Width="27"
                         Height="26">
                     <Grid>
@@ -231,22 +231,24 @@
                     </Grid>
                 </Border>
 
-                  
-                <TextBox Name="CurrencySecond"               
+
+                <Grid Name="SecondCurrencyLine"
+                    Grid.Row="2">
+                    <TextBox Name="CurrencySecond"               
                     Grid.Row="1"
                     Text="0"
                     VerticalAlignment="Top"
                     HorizontalAlignment="Left"
-                    Margin="25,255,0,0"
+                    Margin="25,105,0,0"
                     Style="{StaticResource ModernTextBox}"/>
 
-                <Border 
+                    <Border 
                       Grid.Row="1"
                       Height="25"
                       Width="55"
                       HorizontalAlignment="Left"
                       VerticalAlignment="Top"
-                      Margin="35,262,0,0"
+                      Margin="35,112,0,0"
                       CornerRadius="2">
 
                     <Button x:Name="SecondCurrencyListButton" 
@@ -257,7 +259,8 @@
                                        Margin="35,0,5,0"
                                        Style="{StaticResource ArrowDownImage}"/>
                     </Button>
-                </Border>
+                    </Border>
+                </Grid>
             </Grid>
 
             <Grid Name="BasementLine"
