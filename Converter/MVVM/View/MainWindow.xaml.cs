@@ -57,5 +57,12 @@ namespace Converter
                 LeftGrid.Visibility = Visibility.Visible;
             else LeftGrid.Visibility = Visibility.Hidden;
             }
+
+        private void ArrowDownSecondCurrency_MouseDown(object sender, MouseButtonEventArgs e)
+            {
+            if (RightGrid.Visibility == Visibility.Hidden)
+                RightGrid.Visibility = Visibility.Visible;
+            else RightGrid.Visibility = Visibility.Hidden;
+            }
         }
     }
