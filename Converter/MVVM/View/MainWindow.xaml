@@ -232,6 +232,7 @@
                 </Border>
 
             </Grid>
+            
             <Grid Name="SecondCurrencyLine"
                     Grid.Row="1">
                     <TextBox Name="CurrencySecond"               
@@ -248,7 +249,7 @@
                       Width="55"
                       HorizontalAlignment="Left"
                       VerticalAlignment="Top"
-                      Margin="35,133,0,0"
+                      Margin="35,136,0,0"
                       CornerRadius="2">
 
                     <Button x:Name="SecondCurrencyListButton" 
@@ -261,58 +262,61 @@
                                MouseDown="ArrowDownSecondCurrency_MouseDown"/>
                     </Button>
                     </Border>
-                </Grid>
-            
-            <Grid Name="RightGrid"
-                  Grid.Row="1"
-                  Visibility="Hidden">
-                <Polygon Fill="#353340"
-                         StrokeThickness="2" 
-                         Points="0,8,
-                                0,70,
-                                70,70,
-                                70,8,
-                                50,8,
-                                42,0,
-                                34,8"
-                 Margin="36,158,144,84"/>
+
+                <Grid Name="RightGrid"
+                      Grid.Row="1"
+                      Visibility="Hidden">
+                 <Polygon Fill="#353340"
+                          StrokeThickness="2" 
+                          Points="0,8,
+                            0,70,
+                            70,70,
+                            70,8,
+                            50,8,
+                            42,0,
+                            34,8"
+                          Margin="36,158,144,84"/>
 
                 <Polygon StrokeThickness="1"
                          Points="0,8,
-                                 0,70,
-                                 70,70,
-                                 70,8,
-                                 50,8,
-                                 42,0,
-                                 34,8"
-                          Margin="36,158,144,84"
-                 Stroke="#FF40454E"/>
+                         0,70,
+                         70,70,
+                         70,8,
+                         50,8,
+                         42,0,
+                         34,8"
+                  Margin="36,158,144,84"
+                         Stroke="#FF40454E"/>
 
-                 <StackPanel Orientation="Vertical"
-                                        Margin="37,167,145,85">
-                    <Button Style="{StaticResource ComboBoxButton}">
-                                    
-                       <TextBlock Text="EUR" 
-                                  Foreground="#CFCFCF"
-                                  TextAlignment="Left"
-                                  Height="20"/>
-                    </Button>
+                <StackPanel Orientation="Vertical"
+                            Margin="37,167,145,85">
+                        <Button Style="{StaticResource ComboBoxButton}">
 
-                    <Button Style="{StaticResource ComboBoxButton}">
-                        <TextBlock Text="DLR" 
-                                   Foreground="#CFCFCF"
-                                   TextAlignment="Left"
-                                   Height="20"/>
-                    </Button>
+                            <TextBlock Text="EUR" 
+                      Foreground="#CFCFCF"
+                      TextAlignment="Left"
+                      Height="20"/>
+                        </Button>
 
-                    <Button Style="{StaticResource ComboBoxButton}">
-                         <TextBlock Text="CZK" 
-                                    Foreground="#CFCFCF"
-                                    TextAlignment="Left"
-                                    Height="20"/>
-                    </Button>
-                 </StackPanel>
+                        <Button Style="{StaticResource ComboBoxButton}">
+                            <TextBlock Text="DLR" 
+                       Foreground="#CFCFCF"
+                       TextAlignment="Left"
+                       Height="20"/>
+                        </Button>
+
+                        <Button Style="{StaticResource ComboBoxButton}">
+                            <TextBlock Text="CZK" 
+                        Foreground="#CFCFCF"
+                        TextAlignment="Left"
+                        Height="20"/>
+                        </Button>
+                </StackPanel>
+                    
+                </Grid>
             </Grid>
+            
+            
 
             <Grid Name="BasementLine"
                   Grid.Row="2">
